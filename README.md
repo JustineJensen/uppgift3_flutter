@@ -1,16 +1,45 @@
-# flutter_uppfift3
+# Flutter Parkeringsapplikation - Uppgift 3
 
-A new Flutter project.
+## Introduktion
 
-## Getting Started
+Detta är en Flutter-applikation som fungerar som en parkeringsklient för slutanvändare. Appen ersätter tidigare CLI-lösningar och erbjuder en smidig mobilupplevelse för att hantera fordon och parkeringar.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Funktioner
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Användarhantering
+-  Registrering av nya användare
+-  Inloggning & utloggning
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###  Fordonshantering
+-  Lägg till / ta bort fordon
+-  Lista egna fordon
+
+### Parkeringsfunktioner
+-  Visa lediga parkeringsplatser
+- Starta / avsluta parkering
+-  Visa parkeringshistorik
+
+---
+
+## Navigation
+
+- `BottomNavigationBar` används för mobil
+- `NavigationRail` kan användas för sidnavigering på webb/desktop
+
+---
+
+## Installation
+
+### Förkrav
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) (senaste stabila version)
+- Firebase-projekt med Firestore och Authentication aktiverat
+
+###  Steg för att köra
+
+```bash
+git clone https://github.com/ditt-användarnamn/parking_user.git
+cd parking_user
+flutter pub get
+flutter run
