@@ -2,7 +2,7 @@
 
 ## Introduktion
 
-Detta är en Flutter-applikation som fungerar som en parkeringsklient för slutanvändare. Appen ersätter tidigare CLI-lösningar och erbjuder en smidig mobilupplevelse för att hantera fordon och parkeringar.
+Detta är en Flutter-applikation som fungerar som en parkeringsklient för slutanvändare. Appen ersätter tidigare CLI-lösningar.
 
 ---
 
@@ -33,7 +33,7 @@ Detta är en Flutter-applikation som fungerar som en parkeringsklient för sluta
 ## Installation
 
 ### Förkrav
-- [Flutter SDK](https://flutter.dev/docs/get-started/install) (senaste stabila version)
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
 - Firebase-projekt med Firestore och Authentication aktiverat
 
 ###  Steg för att köra
@@ -43,3 +43,4 @@ git clone https://github.com/ditt-användarnamn/parking_user.git
 cd parking_user
 flutter pub get
 flutter run
+or run without debugging
