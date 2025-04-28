@@ -11,17 +11,23 @@ Detta är en Flutter-applikation som fungerar som en parkeringsklient för sluta
 ### Användarhantering
 -  Registrering av nya användare
 -  Inloggning & utloggning
+  ## Inlogging
+  -Logga in med din e-postadress och lösenord.
+
+## Registerar ny konto
+ -Ange namn
+ -Ange e-postadress
+-Ange lösenord
 
 ###  Fordonshantering
 -  Lägg till / ta bort fordon
--  Lista egna fordon
+-  Lista fordon
 
 ### Parkeringsfunktioner
 -  Visa lediga parkeringsplatser
 - Starta / avsluta parkering
 -  Visa parkeringshistorik
-
----
+----
 
 ## Navigation
 
